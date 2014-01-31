@@ -1,0 +1,15 @@
+SMAP
+makepaper_jsp.java
+JSP
+*S JSP
+*F
++ 0 makepaper.jsp
+makepaper.jsp
++ 1 footer.jsp
+footer.jsp
+*L
+5,64:61
+68,105:125
+1#1,83:230
+172#0,3:312
+*E
