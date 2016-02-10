@@ -80,7 +80,7 @@ with Java, JavaScript, HTML5, PHP, C/C++ and more.NetBeans IDE is FREE, open sou
 
 	+ Create a New MySQL User and Database
 
-	```sql
+	```
 		create database testdb;
 		create user 'testuser'@'localhost' identified by 'password';
 		grant all on testdb.* to 'testuser';
