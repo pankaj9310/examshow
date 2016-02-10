@@ -46,7 +46,7 @@ with Java, JavaScript, HTML5, PHP, C/C++ and more.NetBeans IDE is FREE, open sou
 	+ https://netbeans.org/downloads/
 
 	+In terminal,navigate to download directory & run
-```bash
+```
 	sh netbeans-7.1-linux.sh
 ```
 	+ select tomcat server instead of glassfish during installation
@@ -54,33 +54,33 @@ with Java, JavaScript, HTML5, PHP, C/C++ and more.NetBeans IDE is FREE, open sou
 
 - Update your system : Ubuntu Source list generator: https://repogen.simplylinux.ch/generate.php
 
-```bash
+```
 	sudo apt-get update
 	sudo apt-get upgrade
 ```
 
 - Install MySQL
 
-```bash
+```
 	sudo apt-get install mysql-server
 ```
 
 	+ Start/Stop Mysql server 
 	
-	```bash
+	```
 		sudo service mysql start
 		sudo service mysql stop
 	```
 
 	+ To log in to MySQL as the root user:
 	
-	```bash
+	```
 		mysql -u root -p
 	```
 
 	+ Create a New MySQL User and Database
 
-	```sql
+	```
 		create database testdb;
 		create user 'testuser'@'localhost' identified by 'password';
 		grant all on testdb.* to 'testuser';
@@ -94,41 +94,41 @@ with Java, JavaScript, HTML5, PHP, C/C++ and more.NetBeans IDE is FREE, open sou
 	+ Step 1: Install Apache2, PHP and MySQL. We assume you already have installed LAMP on your system.
 
 		- Install Apache 
-		```bash
+		```
 			sudo apt-get install apache2
 			sudo service apache2 restart
 		```
 
 		- Install PHP
 
-		```bash
+		```
 			sudo apt-get install php5
 		```
 				
 		-If you need MySQL support also install php5-mysql
 		
-		```bash
+		```
 			sudo apt-get install php5-mysql
 		```
 
 	+ Step 2: Install phpMyAdmin.
 
-	```bash
+	```
 		sudo apt-get install phpmyadmin
 	```
 
 		- After the installation has completed, add phpmyadmin to the apache configuration.
-		```bash
+		```
 			sudo vi /etc/apache2/apache2.conf
 		```
 
 		- Add the phpmyadmin config to the file.
-		```bash
+		```
 			Include /etc/phpmyadmin/apache.conf
 		```
 
 		- Restart apache:
-		```bash
+		```
 			sudo service apache2 restart
 		```
 
