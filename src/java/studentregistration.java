@@ -81,6 +81,12 @@ public class studentregistration extends HttpServlet {
                 String query="insert into student values('"+name+"','"+rollno+"','"+newpasswd+"','"+institute+"','"+sem+"','"+email+"','"+number+"','"+dob+"','"+sex+"','"+code+"')";
                 out.println(query);
                 st.executeUpdate(query);
+                String msg="Your verification CODE is:"+code+" .<br/>To verify Click on this link http://www.codeoj.com/examshow/Verification.jsp?email="+email+"&authcode="+code+"";
+                 System.out.print("msg is" +msg);
+                 //mailing preocess
+                out.print("msg is" +msg);
+                MailVerify mv=new MailVerify(email, msg);
+                mv.verify();
                 con.close();
                 response.sendRedirect("index.jsp?RegisterStudent=True");
             }
