@@ -3,9 +3,10 @@
 On-Line Exam System is for Educational Institute to prepare an exam and online quiz
 for students of different domains like Sports,Programming, Science etc. and used for quiz
 events of Tech-Fest of Colleges.
-Demo link admin Panel https://www.youtube.com/watch?v=aolbJEzlw9M
-Faculty Panel https://www.youtube.com/watch?v=pt_GCn4-PQQ
-Student Panel https://www.youtube.com/watch?v=v4IRpTMTFK4
+- Demo link admin Panel https://www.youtube.com/watch?v=aolbJEzlw9M
+- Faculty Panel https://www.youtube.com/watch?v=pt_GCn4-PQQ
+- Student Panel https://www.youtube.com/watch?v=v4IRpTMTFK4
+
 ##Core Technologies Used 
 
  Why Choose Java : Java makes the Application platform Independent .“Write Once, Run Anywhere”
